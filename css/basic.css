@@ -12,6 +12,9 @@ Espresso - #51473d (header bg)
 
 
 #container {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
     background-color: #fcfaf4;
     border: solid black 1px;
 }
@@ -25,9 +28,12 @@ Espresso - #51473d (header bg)
 
 
 #menu {
-     background-color: #51473d;
-    border: solid black 1px;
     display: block;
+    background-image: url("../css/pics/coffey.jpg");
+    width: 600px;
+    height: 200px;
+    background-color: #51473d;
+    border: solid black 1px;
 }
 
 #menu a:link {
@@ -43,6 +49,7 @@ Espresso - #51473d (header bg)
 #menu li {
     background-color: #797066;
     display: block;
+    
 } 
 
 #menu a:hover {
