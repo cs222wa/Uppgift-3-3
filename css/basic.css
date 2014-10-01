@@ -1,1 +1,48 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/* 
+Färger
+Off-white - #fcfaf4 (container bg)
+Gräddvit - #eae7d2  (active + content)
+Mörk kaffe - #797066 (länk bg)
+Latte - #9c9084 (link : hover)
+Espresso - #51473d (header bg)
+*/
+
+
+#container{
+    background-color: #fcfaf4;
+    border: solid black 1px;
+}
+
+#topbar{
+    background-color: #51473d;
+    border: solid black 1px;
+}
+
+#menu{
+     background-color: #51473d;
+    border: solid black 1px;
+}
+
+.active
+
+#content{
+    background-color: #51473d;
+    border: solid black 1px;
+}
+
+#maincontent{
+    background-color: #eae7d2;
+    border: solid black 1px;
+}
+
+#subcontent{
+    background-color: #eae7d2;
+    border: solid black 1px;
+}
+
+#bottomcontent{
+    background-color: #eae7d2;
+    border: solid black 1px;
+}
