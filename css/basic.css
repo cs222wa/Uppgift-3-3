@@ -1,3 +1,4 @@
+
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
 /* 
@@ -10,39 +11,84 @@ Espresso - #51473d (header bg)
 */
 
 
-#container{
+#container {
     background-color: #fcfaf4;
     border: solid black 1px;
 }
 
-#topbar{
+#topbar {
     background-color: #51473d;
     border: solid black 1px;
+    font-style: italic;
+    color: #eae7d2;
 }
 
-#menu{
+
+#menu {
      background-color: #51473d;
     border: solid black 1px;
+    display: block;
 }
 
-.active
+#menu a:link {
+    color: #eae7d2;
+}
 
-#content{
+#menu li.active a {
+    background-color: #eae7d2;
+    color: #9c9084;
+}
+
+
+#menu li {
+    background-color: #797066;
+    display: block;
+} 
+
+#menu a:hover {
+     background-color: #9c9084;
+    color: #eae7d2;
+}
+
+
+
+#subcontent a:link {
+    color: #51473d;
+}
+    
+#subcontent a:hover {
+    color: #9c9084;
+}
+
+
+
+#content {
     background-color: #51473d;
     border: solid black 1px;
 }
 
-#maincontent{
+#maincontent {
     background-color: #eae7d2;
     border: solid black 1px;
+    font-style: normal;
+    color: #797066;
 }
 
-#subcontent{
+#subcontent {
     background-color: #eae7d2;
     border: solid black 1px;
+    font-style: normal;
+    color: #797066;
 }
 
-#bottomcontent{
+#subcontent h1 {
+    color:#51473d;
+}
+
+
+#bottomcontent {
     background-color: #eae7d2;
     border: solid black 1px;
+    font-style: italic;
+    color: #797066;
 }
