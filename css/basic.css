@@ -16,24 +16,21 @@ Espresso - #51473d (header bg)
     width: 600px;
     margin: 0 auto;
     background-color: #fcfaf4;
-    border: solid black 1px;
 }
 
 #topbar {
     background-color: #51473d;
-    border: solid black 1px;
+    border: solid black 0px;
     font-style: italic;
     color: #eae7d2;
 }
 
 
 #menu {
-    display: block;
     background-image: url("../css/pics/coffey.jpg");
     width: 600px;
     height: 200px;
     background-color: #51473d;
-    border: solid black 1px;
 }
 
 #menu a:link {
@@ -45,11 +42,15 @@ Espresso - #51473d (header bg)
     color: #9c9084;
 }
 
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 #menu li {
     background-color: #797066;
-    display: block;
-    
+    display: inline;
 } 
 
 #menu a:hover {
@@ -71,21 +72,25 @@ Espresso - #51473d (header bg)
 
 #content {
     background-color: #51473d;
-    border: solid black 1px;
+    border: solid black 0px;
 }
 
 #maincontent {
     background-color: #eae7d2;
-    border: solid black 1px;
+    width: 400px;
+    border: solid black 0px;
     font-style: normal;
     color: #797066;
+    float: left;
 }
 
 #subcontent {
+    width: 200px;
     background-color: #eae7d2;
-    border: solid black 1px;
+    border: solid black 0px;
     font-style: normal;
     color: #797066;
+    float: right;
 }
 
 #subcontent h1 {
@@ -94,8 +99,9 @@ Espresso - #51473d (header bg)
 
 
 #bottomcontent {
+    clear: both;
     background-color: #eae7d2;
-    border: solid black 1px;
+    border: solid black 0px;
     font-style: italic;
     color: #797066;
 }
