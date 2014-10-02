@@ -21,10 +21,14 @@ Espresso - #51473d (header bg)
 
 #topbar {
     background-color: #51473d;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 12px;
     font-style: italic;
     text-align: right;
     clear:both;
     color: #eae7d2;
+    padding-top: 5px;
+    padding-bottom: 7px;
 }
 
 
@@ -35,7 +39,7 @@ Espresso - #51473d (header bg)
     background-repeat:no-repeat;
     background-color: #51473d;
     padding-top: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     position: relative;
 }
 
@@ -48,8 +52,10 @@ Espresso - #51473d (header bg)
     border-bottom: none;
     padding-top: 7px;
     padding-bottom: 6px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -58,14 +64,14 @@ Espresso - #51473d (header bg)
     background-color: #eae7d2;
     color: #9c9084;
     text-decoration: none;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 7px;
 }
 
 #menu ul {
     background-color: #51473d;
     list-style-type: none;
-    margin-top: 162px;
+    margin-top: 159px;
     margin-left: 10px;
     padding-bottom: 5px;
     padding: 0;
@@ -74,8 +80,9 @@ Espresso - #51473d (header bg)
 
 #menu li {
     background-color: #797066;
-    display: inline;
-    padding-top: 5px;
+    display: inline-block;
+    margin-left:-4px;
+    padding-top: 7px;
     padding-bottom: 6px;
     text-decoration: none;
 } 
@@ -88,7 +95,12 @@ Espresso - #51473d (header bg)
     text-decoration: none;
 }
 
+#subcontent li{
+    list-style: none;
+}
+
 #subcontent a:link {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
     color: #51473d;
 }
     
@@ -105,15 +117,33 @@ Espresso - #51473d (header bg)
 
 #maincontent {
     background-color: #eae7d2;
-    width: 399px;
+    width: 349px;
     border-right: dashed #9c9084 1px;
     font-style: normal;
     color: #797066;
     float: left;
 }
 
+h1 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: lighter;
+    color: #9c9084;
+}
+
+h2 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color:#51473d;
+}
+
+p {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    color: #9c9084;
+}
+
 #subcontent {
-    width: 199px;
+    width: 249px;
     background-color: #eae7d2;
     font-style: normal;
     color: #797066;
@@ -122,13 +152,20 @@ Espresso - #51473d (header bg)
 
 #subcontent h1 {
     color:#51473d;
+    font-size: 18px;
 }
 
+#subcontent p {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
 
 #bottomcontent {
     clear: both;
     background-color: #eae7d2;
     border: solid black 0px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
     font-style: italic;
     color: #797066;
 }
