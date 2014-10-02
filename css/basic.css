@@ -34,46 +34,59 @@ Espresso - #51473d (header bg)
     height: 200px;
     background-repeat:no-repeat;
     background-color: #51473d;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    padding-top: 30px;
+    padding-bottom: 5px;
     position: relative;
 }
 
-#menu a:link {
-    color: #eae7d2;
-    border-bottom: none;
-    padding-top: 10px;
-    padding-bottom: 0;
-    padding: 15px;
+#menu a[href="#maincontent"] {
+    visibility: hidden;
 }
 
-#menu li.active a {
+#menu ul a:link {
+    color: #eae7d2;
+    border-bottom: none;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#menu ul li.active a {
     background-color: #eae7d2;
     color: #9c9084;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 7px;
 }
 
 #menu ul {
     background-color: #51473d;
     list-style-type: none;
-    margin-top: 170px;
-    margin-left: 30px;
+    margin-top: 162px;
+    margin-left: 10px;
+    padding-bottom: 5px;
     padding: 0;
+    text-decoration: none;
 }
 
 #menu li {
     background-color: #797066;
     display: inline;
-    padding-top: 17px;
-    padding-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    text-decoration: none;
 } 
 
 #menu a:hover {
     background-color: #9c9084;
     color: #eae7d2;
-    padding-bottom: 1px;
-    padding-top: 16px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    text-decoration: none;
 }
-
 
 #subcontent a:link {
     color: #51473d;
@@ -87,6 +100,7 @@ Espresso - #51473d (header bg)
 
 #content {
     background-color: #eae7d2;
+    margin-top: 0px;
 }
 
 #maincontent {
