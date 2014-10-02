@@ -16,6 +16,7 @@ Espresso - #51473d (header bg)
     width: 600px;
     margin: 0 auto;
     background-color: #fcfaf4;
+    padding: 10px 20px 25px 20px;
 }
 
 #topbar {
@@ -71,23 +72,23 @@ Espresso - #51473d (header bg)
 
 
 #content {
-    background-color: #51473d;
+    background-color: #eae7d2;
     border: solid black 0px;
 }
 
 #maincontent {
     background-color: #eae7d2;
-    width: 400px;
-    border: solid black 0px;
+    width: 399px;
+    border-right: dashed #9c9084 1px;
     font-style: normal;
     color: #797066;
     float: left;
+    margin-top: 20px;
 }
 
 #subcontent {
-    width: 200px;
+    width: 199px;
     background-color: #eae7d2;
-    border: solid black 0px;
     font-style: normal;
     color: #797066;
     float: right;
