@@ -34,10 +34,17 @@ Espresso - #51473d (header bg)
     height: 200px;
     background-repeat:no-repeat;
     background-color: #51473d;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    position: relative;
 }
 
 #menu a:link {
     color: #eae7d2;
+    border-bottom: none;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding: 15px;
 }
 
 #menu li.active a {
@@ -48,21 +55,24 @@ Espresso - #51473d (header bg)
 #menu ul {
     background-color: #51473d;
     list-style-type: none;
-    height: 40px;
-    margin-top: 181px;
+    margin-top: 170px;
+    margin-left: 30px;
     padding: 0;
 }
 
 #menu li {
     background-color: #797066;
     display: inline;
+    padding-top: 17px;
+    padding-bottom: 0;
 } 
 
 #menu a:hover {
-     background-color: #9c9084;
+    background-color: #9c9084;
     color: #eae7d2;
+    padding-bottom: 1px;
+    padding-top: 16px;
 }
-
 
 
 #subcontent a:link {
@@ -77,8 +87,6 @@ Espresso - #51473d (header bg)
 
 #content {
     background-color: #eae7d2;
-    border: solid black 0px;
-    margin-top: 40px;
 }
 
 #maincontent {
@@ -88,7 +96,6 @@ Espresso - #51473d (header bg)
     font-style: normal;
     color: #797066;
     float: left;
-    margin-top: 20px;
 }
 
 #subcontent {
