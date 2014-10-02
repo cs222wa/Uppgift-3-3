@@ -21,8 +21,9 @@ Espresso - #51473d (header bg)
 
 #topbar {
     background-color: #51473d;
-    border: solid black 0px;
     font-style: italic;
+    text-align: right;
+    clear:both;
     color: #eae7d2;
 }
 
@@ -31,6 +32,7 @@ Espresso - #51473d (header bg)
     background-image: url("../css/pics/coffey.jpg");
     width: 600px;
     height: 200px;
+    background-repeat:no-repeat;
     background-color: #51473d;
 }
 
@@ -44,8 +46,10 @@ Espresso - #51473d (header bg)
 }
 
 #menu ul {
+    background-color: #51473d;
     list-style-type: none;
-    margin: 0;
+    height: 40px;
+    margin-top: 181px;
     padding: 0;
 }
 
@@ -74,6 +78,7 @@ Espresso - #51473d (header bg)
 #content {
     background-color: #eae7d2;
     border: solid black 0px;
+    margin-top: 40px;
 }
 
 #maincontent {
@@ -112,3 +117,4 @@ img {
     margin: 0;
     padding-right: 10px;
 }
+
